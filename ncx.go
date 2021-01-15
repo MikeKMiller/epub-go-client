@@ -11,6 +11,7 @@ type NavPoint struct {
 	Content   Content    `xml:"content" json:"content"`
 	Points    []NavPoint `xml:"navPoint" json:"points"`
 	PlayOrder string     `xml:"playOrder,attr" json:"playOrder"`
+	Id        string     `xml:"id,attr" json:"id"`
 }
 
 //Content nav-point content
